@@ -1,14 +1,7 @@
 #!/bin/python3
 from enum import Enum
 import random
-
-class Coord2D:
-    x, y = 0, 0
-    def __init__(self, a, b):
-        self.x = a
-        self.y = b
-    #
-#
+from Coord2D import Coord2D
 
 class Directions(Enum):
     UP = 0
